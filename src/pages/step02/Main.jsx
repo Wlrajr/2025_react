@@ -3,6 +3,8 @@ import List01 from "../step03/List01";
 import List02 from "../step03/List02";
 import CommentList from "../step04/CommentList";
 import Counter from "./Counter";
+import FilteredCommentList from "../step05/FilteredCommentList";
+import FilteredCommentList2 from "../step05/FilteredCommentList2";
 
 function Main(props){
     return(
@@ -15,6 +17,8 @@ function Main(props){
                 <List02 />
                 <Profiler />
                 <CommentList />
+                <FilteredCommentList />
+                <FilteredCommentList2 />
             </main>
         </>
     );

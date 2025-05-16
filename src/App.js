@@ -2,7 +2,6 @@ import './App.css';
 import Header from './pages/step02/Header';
 import Main from './pages/step02/Main';
 import Footer from './pages/step02/Footer'; 
-import Profile from './pages/step03/Profile';
 
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
     <>
       <Header />
       <Main />
-      <Profile />
       <Footer />
     </>
   );

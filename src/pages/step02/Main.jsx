@@ -5,6 +5,10 @@ import CommentList from "../step04/CommentList";
 import Counter from "./Counter";
 import FilteredCommentList from "../step05/FilteredCommentList";
 import FilteredCommentList2 from "../step05/FilteredCommentList2";
+import FindAdminCommentList from "../step05/FindAdminCommentList";
+import FindAdminCommentList2 from "../step05/FindAdminCommentList2";
+import ReduceComment from "../step05/ReduceComment";
+import SomeEveryCheck from "../step05/SomeEveryCheck";
 
 function Main(props){
     return(
@@ -19,6 +23,10 @@ function Main(props){
                 <CommentList />
                 <FilteredCommentList />
                 <FilteredCommentList2 />
+                <FindAdminCommentList />
+                <FindAdminCommentList2 />
+                <ReduceComment />
+                <SomeEveryCheck />
             </main>
         </>
     );

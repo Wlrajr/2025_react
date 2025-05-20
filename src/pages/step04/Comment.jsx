@@ -1,11 +1,11 @@
-export default function Comment(props) {
+export default function Comment(props){
     return(
         <>
-            <h2>Map 예제</h2>
-            <ul>
-                <li>이름 : {props.name} </li>
-                <li>내용 : {props.comment} </li>
-            </ul>
+          <h2>Map 예제</h2>
+          <ul>
+            <li>이름 : {props.name} </li>            
+            <li>내용 : {props.comment}</li>            
+          </ul>
         </>
     );
-};
+}

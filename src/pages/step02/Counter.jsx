@@ -1,9 +1,10 @@
 function Counter(props){
     return(
         <>
-             <button>Counter</button>
+            <button>Counter</button>
         </>
     );
 };
 
 export default Counter;
+

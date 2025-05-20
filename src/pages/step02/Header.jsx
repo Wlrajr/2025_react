@@ -1,9 +1,9 @@
 function Header(props){
     return(
         <>
-             <header>
-                <h2>Header</h2>
-             </header>
+            <header>
+                <h2>Header</h2>                
+            </header>
         </>
     );
 };
